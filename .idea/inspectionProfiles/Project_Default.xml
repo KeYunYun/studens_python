@@ -1,0 +1,16 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="feiji.gamemain.screen" />
+          <option value="static_web.static_web_server.*" />
+          <option value="mysql.text.MysqlHelper" />
+          <option value="mysql.登录.MysqlHelper" />
+          <option value="lxml.etree" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

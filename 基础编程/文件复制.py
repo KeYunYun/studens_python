@@ -1,0 +1,7 @@
+name= input('请输入要复制的文件名')
+f=open(name,'r')
+f_str=f.read()
+f_resver=open(name.split('.')[0]+'[附件].'+name.split('.')[1],'w+')
+f_resver.write(f_str)
+f_resver.close()
+f.close()
